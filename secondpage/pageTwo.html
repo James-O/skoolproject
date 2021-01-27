@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecondPage</title>
+    <link rel="stylesheet" href="css/pageTwo.css">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <!--font Awesome -->
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- JS, Popper.js, and jQuery -->
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <header class="header border-bottom shadow-sm p-3">
+        
+        <h2 class="flex"><img src="img/Capture0.PNG">OneBurner</h2>
+        <ul class="flex" id="nav-center">
+            <li class="toggle">Product <i class="fa fa-angle-down"></i>
+                <ul id="vital">
+                    <div class=" product">
+                        <div class=" product1">
+                            <li><h6>Client</h6></li>
+                            <li>See the amezing team that uses<br>Onburner</li>
+                        </div>
+                        <div class=" product1">
+                            <li><h6>Oneburner Stores</h6></li>
+                            <li>Expand our already made solution to<br>expand your business</li>
+                        </div>
+                        <div class=" product1">
+                            <li><h6>Integrations</h6></li>
+                            <li>Connect different soution to<br>Onburner and get more done</li>
+                        </div>
+                        <div class=" product1">
+                            <li><h6>Why Oneburner</h6></li>
+                            <li>Learn more about our features,<br>success rates, benefits and demo</li>
+                        </div>
+                    </div>
+                </ul>
+            </li>
+            <li class="flex1">Pricing</li>
+            <li class="flex1">Enterprise</li>
+            <li class="flex1">Support</li>
+        </ul>
+        <ul class="flex" id="nav-end">
+            <li class="flex1">Contact Sales</li>
+            <li class="flex1">Login</li>
+            <a class="btn btn-outline-primary" href="#">Try For Free <i class="fa fa-angle-right"></i></a>
+            <!--<button type="button">Try For Free</button> -->
+        </ul>
+    </header>
+    <section class="containers">
+        <div class="row">
+            <div class="col-sm-6">
+                <form action="" class="form" >
+                    <label class="label">Last Name<br>
+                        <input type="text" name="lname" id="lname" required>
+                    </label>
+                    <label>First Name<br>
+                        <input type="text" name="fname" id="fname" required>
+                    </label><br>
+                    <label>Work Email<br>
+                        <input type="email" name="email" id="email" required>
+                    </label><br>
+                    <label>Phone Number<br>
+                        <input type="tel" name="Phone" id="phone" required pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                    </label><br>
+                    <label for="dropdown" id="product">Product of Interest</label><br>
+                    <select id="dropdown">
+                        <option value="" disabled selected>Make your Choice</option>
+                        <option >Laptops</option>
+                        <option >Phones</option>
+                        <option >Men Wear</option>
+                        <option >Children wear</option>
+                        <option >Others</option>
+                    </select><br><br>
+                    <label>Company Name<br>
+                        <input type="text" name="cname" id="cname" required>
+                    </label>
+                    <label for="number" id="csize">Company Size<br>
+                        <input type="number" name="age" id="number" min="2" max="99" placeholder="Select Company size"></label><br> 
+                    <label>How can our expert help you?<br>
+                        <textarea name="textarea" id="textarea" cols="67" rows="5" placeholder="put down your question ..."></textarea>
+                    </label><br>
+                    <button type="button" id="button">Contact Us</button>
+                </form>
+            </div>
+            <div class="col-sm-6">
+                <div id="company-address">
+                    <div>
+                        <h5>Request a call from an expert</h5>
+                        <P>Having throughts on which products works for you? Fill the form and our expert will reach out to you.</P>
+                    </div>
+                    <h5>Our offices around Africa</h5>
+                    <div class="row">
+                        <div class="col-xs-2 colm">
+                            <h6>NIGERIA</h6>
+                            <p>33a, Adeola Odeku, <br>Victoria Island, Lagos. <br>+234-(0)-8000000000</p>
+                        </div>
+                        <div class="col-xs-2 colm">
+                            <h6>GHANA</h6>
+                            <p>45,El-Senoussi <br>Street, Accra. <br>+233-(0277619819)</p>
+                        </div>
+                        <div class="col-xs-2 colm">
+                            <h6>SOUTH AFRICA</h6>
+                            <p>474,Cheriton Drive, <br>Port Shepstone, Kwazulu-Natal. <br>+27-(0)-857926978</p>
+                        </div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="col-xs-2 colm">
+                            <h6>EGYPT</h6>
+                            <p>72,Gameal El-Dewal <br>El-Arabia St, Giza. <br>+20-(0)-35924295</p>
+                        </div>
+                        <div class="col-xs-2 colm">
+                            <h6>KENYA</h6>
+                            <p>41, Enterprise Rd, Industrial <br>Area, Nairobi. <br>+254-(0)-20536766</p>
+                        </div>
+                        <div class="col-xs-2 colm">
+                            <h6>TUNISIA</h6>
+                            <p>13,Rue de Makthar,Dhraa, <br>Governorate Kasserine. <br>+216-(0)-77367410</p>
+                        </div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="col-xs-2 colm">
+                            <h6>MALI</h6>
+                            <p>22, Badalabougou Est., <br>Bomako. <br>+223-(0)-78175387</p>
+                        </div>
+                        <div class="col-xs-2 colm">
+                            <h6>TANZANIA</h6>
+                            <p>Mbezi Beach, P.O.B. 70339<br>Dar Salaam. <br>+255-(0)-222120119</p>
+                        </div>
+                        <div class="col-xs-2 colm">
+                            <h6>TOGO</h6>
+                            <p>10,E rue des Echis, <br>Lome. <br>+228-(0)-22229600</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <section>
+        <div class="row" id="address">
+            <div class="col-sm-4 colmn">
+                <h4>Oneburner</h4>
+                <p>No 1 CRM Solution in Africa<br>Terms of use | Privacy Policy</p>
+                <div>
+                    Get in Touch<br>+234-80-000-0000<br>
+                    <i class="fa fa-facebook fa-lg"></i>
+                    <i class="fa fa-twitter fa-lg"></i>
+                    <i class="fa fa-linkedin fa-lg"></i>
+                    <i class="fa fa-youtube fa-lg"></i>
+
+                </div>
+            </div>
+            <div class="col-sm-8" id="services">
+                <button type="button" id="button1"><i class="fa fa-globe"></i> English <i class="fa fa-angle-down"></i></button>
+                <div class="row">
+                    <div class="col-xs-2 coln">
+                        <h6>PRODUCT</h6>
+                        <p>Features<br>Enterprise<br>Security<br>Trust<br>Customer Stores<br>Pricing<br>Integrations<br>Oneburner Partners</p>
+                    </div>
+                    <div class="col-xs-2 coln">
+                        <h6>COMPANY</h6>
+                        <p>About Us<br>Contact Us<br>Careers<br>In the News</p>
+                    </div>
+                    <div class="col-xs-2 coln">
+                        <h6>ONEBURNER FOR TEAMS</h6>
+                        <p>Engineering<br>Financial Services<br>CRM and Sales<br>IT<br>Marketing<br>Customer Support<br>Human Resources<br>Project Management<br>Remote Work</p>
+                    </div>
+                    <div class="col-xs-2 coln">
+                        <h6>RESOURCES</h6>
+                        <p>Community<br>Guides<br>Templets<br>Video Tutorials<br>Prodfessional services<br>Knowledge Base<br>Blog<br>Webinars<br>Find a Partner</p>
+                    </div>
+
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <hr>
+    <footer id="foot">
+        &copy; 2021 Oneburner.com. All Right Reserved
+    </footer>
+    <script>
+        $(document).ready(function(){
+        $(".toggle").click(function(){
+        $("#vital").slideToggle("slow");
+        });
+    });
+            </script>
+</body>
+</html>

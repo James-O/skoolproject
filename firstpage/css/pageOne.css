@@ -1,0 +1,49 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#img1{
+    height: 50px;
+    width: 50px;
+}
+.fw-normal{
+    color: rgb(109, 98, 156);
+    padding-top: 20px;
+}
+.coo{
+    text-align: right;
+}
+.coo a{
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+#sign-in{
+    text-align: center;
+    margin-top: 10%;
+}
+#form,#footer{
+    margin-top: 5%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+#email, #password, #submit{
+    width: 400px;
+    height: 45px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.fa-eye{
+    margin-left: -20px;
+}
+#submit{
+    border-radius: 50px;
+    background-color:#6a5acd;
+}
+.fa-envelope,.fa-linkedin,.fa-google{
+    color: blue;
+    padding: 15px;
+}
+.social{
+    text-align: center;
+    margin-top: 3%;
+}

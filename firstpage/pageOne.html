@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  type="text/css" href="css/pageOne.css">
+    <title>pageOne</title>
+
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <!--font Awesome -->
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <header class="d-flex flex-column p-3 bg-white border-bottom shadow-sm">
+        <p class="h2 my-0 me-md-auto fw-normal"><img src="img/Capture0.PNG" id="img1">Oneburner</p>
+        <nav class="coo">
+          <a class="text-dark" href="#">New Customer?</a>
+          <a class="btn btn-outline-primary" href="#">Try For Free <i class="fa fa-angle-right"></i></a>
+        </nav>
+    </header>
+    <div id="sign-in">
+        <h1>Sign in</h1>
+        <h3>Welcome Back!</h3>
+    </div>
+    <form id="form">
+        <label>Email/Username<br>
+            <input type="text" name="email" id="email" required>
+        </label><br>
+        <label>Password<br>
+            <input type="password" name="password" id="password" required><i id="pass-status" class="fa fa-eye" aria-hidden="true" onclick="viewPassword()"></i>
+        </label><br>
+        <input type="submit" name="submit" id="submit" ><br><br>
+        <p>Forgot Password?</p>
+    </form>
+    <div class="social">
+        <p>-Or sign in with: 
+            <i class="fa fa-envelope fa-lg"></i>
+            <i class="fa fa-linkedin fa-lg"></i>
+            <i class="fa fa-google fa-lg"></i>
+        </p>
+    </div> 
+    <footer id="footer">
+       <p>All Right Reserved &copy;2021</p>
+    </footer>
+    <script>
+        function viewPassword(){
+            var passwordInput=document.getElementById("password");
+            var passStatus =document.getElementById("pass-status");
+            if(passwordInput.type=="password"){
+                passwordInput.type="text";
+                passStatus.className="fa fa-eye-slash";
+            }
+            else{
+                passwordInput.type="password";
+                passStatus.className="fa fa-eye";
+            }
+        }
+        
+    </script>
+</body>
+</html>
